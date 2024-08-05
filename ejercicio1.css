@@ -1,0 +1,137 @@
+
+.contenedor{
+    max-width: 400px;
+    margin: auto;
+}
+
+.contenedor2 {
+    max-width: 400px;
+    margin: auto;
+}
+label {
+   
+    margin: 10px 0 5px;
+}
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+button {
+    padding: 10px 15px;
+    font-size: 16px;
+} 
+
+
+
+ 
+body{
+    background-color: blueviolet;
+ 
+}
+.inferior{
+    
+    display: flex;
+    justify-content: center;
+   
+    
+}
+.nombre{
+    display: flex;
+    justify-content: center
+}
+
+.superior{
+   
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+#contenedorNotas {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.botones{
+   padding: 20px;
+}
+
+
+.nota {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 15px;
+    background-color: #f9f9f9;
+    
+    
+}
+
+
+.nota h2 {
+   margin: 2px;
+    font-size: 30px;
+}
+
+
+.nota p {
+    margin: 2px;
+    font-size: 20px;
+    
+}
+
+button {
+    background-color:  #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    font-size: 0.9em;
+}
+
+button:hover {
+    background-color: #28a745;
+}
+
+/* Estilos para el checkbox */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+
+input[type="text56"], textarea {
+    height: 60px;
+    width: 80vw;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+
+#guardarBtn, #limpiarBtn {
+    
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#guardarBtn:hover, #limpiarBtn:hover {
+    background-color: #218838;
+}

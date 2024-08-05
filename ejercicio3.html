@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./ejercicio1.css">
+</head>
+
+<body>
+    <main>
+
+
+        <div class="contenedor-notas">
+            <div class="superior">
+                <div class="nombre">
+                    <h1>Nueva Nota</h1>
+                </div>
+                <div>
+                    <label for="titulo"></label>
+                    <input type="text56" id="titulo" placeholder="Título">
+                </div>
+                <div>
+                    <label for="texto"></label>
+                    <textarea id="texto" placeholder="Escriba su nota aquí"></textarea>
+                </div>
+                <div>
+                    <label for="filtroTexto"></label>
+                    <input type="text56" id="filtroTexto" placeholder="Buscar" oninput="aplicarFiltros()">
+                </div>
+
+                <div class="inferior"></div>
+                <div class="botones">
+                    <button id="guardarBtn">Guardar</button>
+                    <button id="limpiarBtn">Limpiar</button>
+                </div>
+
+
+                <div>
+                    <label for="filtroRealizadas">tareas realizadas</label>
+                    <input type="checkbox" id="filtroRealizadas" onchange="aplicarFiltros()">
+                </div>
+
+
+                <div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+        <div class="Notas" id="contenedorNotas"></div>
+    </main>
+
+
+    <script src="./ejercicio3.js"></script>
+
+</body>
+
+</html>
